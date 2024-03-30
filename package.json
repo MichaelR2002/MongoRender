@@ -1,18 +1,9 @@
 {
-  "name": "ckMongoTest",
-  "version": "1.0.0",
-  "description": "CKs Express Mongo Test on Render",
-  "main": "testmongo.js",
-  "repository": "https://github.com/ckorpio/MongoRender",
-  "author": "CK",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "node testmongo.js"
-  },
   "dependencies": {
-    "express": "^4.18.2",
-    "mongodb": "^5.1.0"
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.3",
+    "mongodb": "^6.5.0",
+    "node": "^21.7.1"
   },
   "engines": {
     "node": ">=14"
